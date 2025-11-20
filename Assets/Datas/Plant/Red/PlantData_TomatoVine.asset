@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc3e0282655ffa418a2bfc67b7977e0, type: 3}
+  m_Name: PlantData_TomatoVine
+  m_EditorClassIdentifier: 
+  Id: TOMATO
+  Name: Tomato
+  ScientificName: Solanum lycopersicum
+  Family: Solanaceae
+  NativeRange: Western South America
+  Description: Tomatoes were once thought to be poisonous in Europe, but today, they
+    are one of the most popular fruits worldwide
+  Asset: {fileID: 21300000, guid: a7f5a9464e2bded4284c1bc6535dcaec, type: 3}
+  PopupAsset: {fileID: 21300000, guid: 3010c9693381ff44580c9c355e4b314b, type: 3}
+  OffsetYPos: -25
+  AnimatorController: {fileID: 9100000, guid: c3a0ddff1d34e6b439a799b4477f24b3, type: 2}

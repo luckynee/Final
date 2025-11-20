@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc3e0282655ffa418a2bfc67b7977e0, type: 3}
+  m_Name: PlantData_Welwitschia
+  m_EditorClassIdentifier: 
+  Id: WELWITSCHIA
+  Name: Welwitschia
+  ScientificName: Welwitschia mirabilis
+  Family: Welwitschiaceae
+  NativeRange: Namib Desert, Namibia and Angola
+  Description: Welwitschia can live for more than 1,000 years, surviving in extreme
+    desert conditions by absorbing moisture from fog.
+  Asset: {fileID: 21300000, guid: 0b711c1fd7df44640af5693baa2233a5, type: 3}
+  PopupAsset: {fileID: 21300000, guid: f62944527abe1c240a86ea09f4b7c228, type: 3}
+  OffsetYPos: 0
+  AnimatorController: {fileID: 9100000, guid: c8e21df65fa642f4d8d2e46c1f874edf, type: 2}

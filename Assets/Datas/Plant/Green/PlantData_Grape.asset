@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc3e0282655ffa418a2bfc67b7977e0, type: 3}
+  m_Name: PlantData_Grape
+  m_EditorClassIdentifier: 
+  Id: GRAPE
+  Name: Grape
+  ScientificName: Vitis vinifera
+  Family: Vitaceae
+  NativeRange: Mediterranean region, Central Asia
+  Description: Grapes are rich in antioxidants, particularly resveratrol
+  Asset: {fileID: 21300000, guid: 91ff65566d6b0b641a853dd10cb1ff23, type: 3}
+  PopupAsset: {fileID: 21300000, guid: 4647bc3120f9a3742be274f08e0b7ddc, type: 3}
+  OffsetYPos: -10
+  AnimatorController: {fileID: 9100000, guid: e0bab16df1521614ebd62faf69a4cbd5, type: 2}

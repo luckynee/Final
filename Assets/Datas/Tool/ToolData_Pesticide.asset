@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae271d96102c6548833054bf971457f, type: 3}
+  m_Name: ToolData_Pesticide
+  m_EditorClassIdentifier: 
+  Id: PESTICIDE
+  Description: Change pest card to random card.
+  EffectCard: {fileID: 11400000, guid: 90636a80fb65df945bcf0be0d6b377f7, type: 2}
+  ActiveAsset: {fileID: 21300000, guid: 3d46523c140c8a3448c622e86de6a485, type: 3}
+  InactiveAsset: {fileID: 21300000, guid: 3d5a820e13dd0734db74d8c6ba0822b4, type: 3}

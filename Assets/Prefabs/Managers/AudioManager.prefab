@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7443974152997762293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6536395333273429504}
+  - component: {fileID: 786903720004141111}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6536395333273429504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7443974152997762293}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &786903720004141111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7443974152997762293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bcebbc5e80a7c45b146d5c14d8da51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bgmDataList:
+  - BGMScene: 1
+    AudioClip: {fileID: 8300000, guid: b1c02382603437d4c8515c03023e6c26, type: 3}
+    Volume: 1
+  ambienceDataList:
+  - AmbienceScene: 1
+    AudioClip: {fileID: 8300000, guid: dda2bbc4340b7914481263914ee98697, type: 3}
+    Volume: 0.5
+  - AmbienceScene: 2
+    AudioClip: {fileID: 8300000, guid: 13692f721f534d340a122becd575305c, type: 3}
+    Volume: 0.15
+  sfxDataList:
+  - SFXType: 0
+    AudioClip: {fileID: 8300000, guid: 67a6a8a0c17d91d48ab3fadf713831d2, type: 3}
+    Volume: 1
+  - SFXType: 1
+    AudioClip: {fileID: 8300000, guid: 0ee096da7c50cd044b8840f5387e2516, type: 3}
+    Volume: 1
+  - SFXType: 2
+    AudioClip: {fileID: 8300000, guid: 9b8fb8f68bf9b8c4b841428186029fbe, type: 3}
+    Volume: 1
+  - SFXType: 3
+    AudioClip: {fileID: 8300000, guid: 37b4ac69d79267646a806df025456262, type: 3}
+    Volume: 1
+  - SFXType: 4
+    AudioClip: {fileID: 8300000, guid: 16e6760a797062a41aa64e24c2ab5358, type: 3}
+    Volume: 1
+  - SFXType: 5
+    AudioClip: {fileID: 8300000, guid: 1591efca028ce4f4cb130e403226f500, type: 3}
+    Volume: 1
+  - SFXType: 6
+    AudioClip: {fileID: 8300000, guid: fe69313baf82eff4abfc41d58355339f, type: 3}
+    Volume: 1
+  - SFXType: 7
+    AudioClip: {fileID: 8300000, guid: 009bfc27f2acd2f4bbc353e696e72056, type: 3}
+    Volume: 1
+  - SFXType: 8
+    AudioClip: {fileID: 8300000, guid: c4b3fd36a7f285146a3985bcbde45f06, type: 3}
+    Volume: 1
+  volumeFadeDuration: 0
+  delayBetweenCrossFade: 0
+  bgmAudioMixer: {fileID: 24300002, guid: 5bc4ac71139f3dd4d9f277d1cf2d78fb, type: 2}
+  sfxAudioMixer: {fileID: 24300002, guid: 4b7b82a580186a54488749eb3d0ba85a, type: 2}

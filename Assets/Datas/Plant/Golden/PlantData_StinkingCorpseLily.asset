@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc3e0282655ffa418a2bfc67b7977e0, type: 3}
+  m_Name: PlantData_StinkingCorpseLily
+  m_EditorClassIdentifier: 
+  Id: STINKING_CORPSE_LILY
+  Name: Stinking corpse lily
+  ScientificName: Rafflesia arnoldii
+  Family: Rafflesiaceae
+  NativeRange: Sumatra and Borneo, Southeast Asia
+  Description: Known for having the largest individual flower in the world, it emits
+    a foul odor similar to rotting meat to attract carrion flies.
+  Asset: {fileID: 21300000, guid: 3f7f1225f8e151c44b6812862cf231c5, type: 3}
+  PopupAsset: {fileID: 21300000, guid: f792def2c5c6f374d8d89cc63123c197, type: 3}
+  OffsetYPos: 0
+  AnimatorController: {fileID: 9100000, guid: a8fff0b7acf70fa4f9e28a0ec65932a0, type: 2}

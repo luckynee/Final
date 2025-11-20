@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SplashScreen.unity
+    guid: 552ef44d6264a2947aa575e9abb7f9b7
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: caf948f2ac47e9f4a8cba02d2e3670e8
+  - enabled: 0
+    path: Assets/Scenes/Gameplay.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Scenes/Garden.unity
+    guid: b2459abd4413ded48a2a85b9f868f50d
+  - enabled: 0
+    path: Assets/Scenes/Tutorial.unity
+    guid: 4b93c32c4f6404145b81be0179fb55a5
+  - enabled: 0
+    path: Assets/Scenes/NewGarden.unity
+    guid: 85caa445c05360e408bd2c76ed09fac1
+  - enabled: 1
+    path: Assets/Scenes/Pa/PaProject.unity
+    guid: 455d9d16e99a28146b5b52af3c4a5863
+  - enabled: 1
+    path: Assets/Scenes/Pa/PaMainMenu.unity
+    guid: fd6c3a886595afd4894bace2d90fe6e9
+  - enabled: 1
+    path: Assets/Scenes/Pa/PaGarden.unity
+    guid: 59a1e01aedd2d9c45ac4c149f145ee42
+  m_configObjects: {}

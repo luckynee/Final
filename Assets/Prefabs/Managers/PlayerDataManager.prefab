@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5447502085911835516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3136124640623995308}
+  - component: {fileID: 2843420879728884024}
+  m_Layer: 0
+  m_Name: PlayerDataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3136124640623995308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5447502085911835516}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2843420879728884024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5447502085911835516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076372302753faf448b80f1d5274edf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOwnedGreenPlantList:
+  - PlantData: {fileID: 11400000, guid: 7d8c91eaf4cb90c4180f67bd8fd1d617, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: c2a5b7c84ede9c941b6838fadc264da4, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: b5fa33ff21f402449924cde485e89705, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: e1f2d3c615d7bdd4f805305bd69a0eeb, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: 0c7a4a164b3c8f64789060b225055a96, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: 9d64b762eeb16df48beba1e57e19003d, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: f48761b15a119c44baa21833f74641fb, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: 6b6034f0138887644880385b48142289, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: 185e8eaf06862fd4cb27cf7b1e897f1d, type: 2}
+    Owned: 0
+  playerOwnedYellowPlantList:
+  - PlantData: {fileID: 11400000, guid: 5801bccf1f91bf14dba5a49ccb27372e, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: bfb28ea3021a0a349a4653cc248928ca, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: af37416c6da05b54794dc50e8df8a132, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: f9db1ac4a6602e24b9b3b39e73144e9f, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: 476de5aff2f422945b0f8c8aa5e3e342, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: 84165b0ca5eb705419f320de2804a8a8, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: c21f02e1aedfa804fa858ad24f655597, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: 488ae9cfd66cadc459d9f09b22bb1ce9, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: fc8b7872cb3e09d4b9455392ef1fb27f, type: 2}
+    Owned: 0
+  playerOwnedRedPlantList:
+  - PlantData: {fileID: 11400000, guid: 24387e65d74214c469f4e745d60422c5, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: eddb54843881ff14894486fbd474a71c, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: b11be9ce6f71f244987e17ebcbdd1786, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: 9f30090f0b502924bb50fc51b701c179, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: 83bb4876d00ac3c468f73be6e1face11, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: f0a4a2af848c8da40a47cb80586db743, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: 22e048b40d3f8d8498af03a5c07022bd, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: d61cb403a98a0ce448745e6796d0fb20, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: ad327d9fa04080b41923055b71141380, type: 2}
+    Owned: 0
+  playerOwnedGoldenPlantList:
+  - PlantData: {fileID: 11400000, guid: 80dd3da9cdff1e94c9f0cea0e0aa0f48, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: 33900c13d91f84545834f88dd94e11b9, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: 79fb96e0361c8114092d0f05616d2bcb, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: 809fd2780ff9ae44e8584ef248b39908, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: 32ff74dccd77d2049a1ea90a5a4d3230, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: 9ba935e2f2087cd4b927221fcb1860e7, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: 9ba935e2f2087cd4b927221fcb1860e7, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: 489bceeedcd65ec4abfe2153fc15d90a, type: 2}
+    Owned: 0
+  - PlantData: {fileID: 11400000, guid: 57474e42008c711428bbe124d34aeff5, type: 2}
+    Owned: 0

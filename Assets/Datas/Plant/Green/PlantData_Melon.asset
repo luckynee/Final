@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc3e0282655ffa418a2bfc67b7977e0, type: 3}
+  m_Name: PlantData_Melon
+  m_EditorClassIdentifier: 
+  Id: MELON
+  Name: Melon
+  ScientificName: Cucumis melo
+  Family: Cucurbitaceae
+  NativeRange: West Africa and Southwest Asia
+  Description: They are believed to have been cultivated for over 4,000 years, with
+    historical evidence linking them to ancient Egyptian civilizations
+  Asset: {fileID: 21300000, guid: e0d3b94a7e04e754fbf5e0ba177cc3d8, type: 3}
+  PopupAsset: {fileID: 21300000, guid: ed3d3364bb8820e4ea37d6bde1ba3034, type: 3}
+  OffsetYPos: 20
+  AnimatorController: {fileID: 9100000, guid: ecd0027f8d4ae1f439a9f4707ed0035b, type: 2}

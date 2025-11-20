@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc3e0282655ffa418a2bfc67b7977e0, type: 3}
+  m_Name: PlantData_Marigold
+  m_EditorClassIdentifier: 
+  Id: MARIGOLD
+  Name: Marigold
+  ScientificName: Tagetes erecta
+  Family: Asteraceae
+  NativeRange: Mexico and Central America
+  Description: Marigolds have been used in traditional medicine for their anti-inflammatory
+    properties
+  Asset: {fileID: 21300000, guid: 363a1ff083d02ca438accd20612cf07b, type: 3}
+  PopupAsset: {fileID: 21300000, guid: 127a5276c2cc8564f88b9f0f2887a268, type: 3}
+  OffsetYPos: 45
+  AnimatorController: {fileID: 9100000, guid: f208020014465b142b95591fe57e531f, type: 2}

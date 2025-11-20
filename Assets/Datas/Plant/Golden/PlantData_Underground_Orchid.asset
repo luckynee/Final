@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc3e0282655ffa418a2bfc67b7977e0, type: 3}
+  m_Name: PlantData_Underground_Orchid
+  m_EditorClassIdentifier: 
+  Id: UNDERGROUND_ORCHID
+  Name: Underground Orchid (Rhizanthella gardneri)
+  ScientificName: Rhizanthella gardneri
+  Family: Orchidaceae
+  NativeRange: Western Australia
+  Description: One of the most unusual orchids, it spends its entire life underground
+    and only surfaces with small flowers for reproduction.
+  Asset: {fileID: 21300000, guid: 34596cfbb932cc1479200ff6907c9256, type: 3}
+  PopupAsset: {fileID: 21300000, guid: de1dc3c3f97439548a4944ee5f57d6c2, type: 3}
+  OffsetYPos: 0
+  AnimatorController: {fileID: 9100000, guid: 6ffe97a88fde6374a8baa43a06773547, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc3e0282655ffa418a2bfc67b7977e0, type: 3}
+  m_Name: PlantData_GoldenSunflower
+  m_EditorClassIdentifier: 
+  Id: GOLDEN_SUNFLOWER
+  Name: Golden Sunflower
+  ScientificName: Helianthus annuus
+  Family: Asteraceae
+  NativeRange: North America
+  Description: Sunflowers can track the sun's movement throughout the day, a phenomenon
+    known as heliotropism
+  Asset: {fileID: 21300000, guid: b9b21c62a80e9a349ada6990da999128, type: 3}
+  PopupAsset: {fileID: 21300000, guid: 59573d9b84bafe2468e828e65c585754, type: 3}
+  OffsetYPos: 35
+  AnimatorController: {fileID: 9100000, guid: 742b038ae97495046b4972ab7b60c703, type: 2}

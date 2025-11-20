@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae271d96102c6548833054bf971457f, type: 3}
+  m_Name: ToolData_Bucket
+  m_EditorClassIdentifier: 
+  Id: BUCKET
+  Description: Change any card except pest to Water Card.
+  EffectCard: {fileID: 11400000, guid: a11f8d299bdef004ea04690c755aae3a, type: 2}
+  ActiveAsset: {fileID: 21300000, guid: 652df1b9caf473f41b5859b8993aabcd, type: 3}
+  InactiveAsset: {fileID: 21300000, guid: 9ea7c0422809a3e4d9a7573ce33adfd1, type: 3}

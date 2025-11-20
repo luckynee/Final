@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc3e0282655ffa418a2bfc67b7977e0, type: 3}
+  m_Name: PlantData_Corn
+  m_EditorClassIdentifier: 
+  Id: CORN
+  Name: Corn
+  ScientificName: Zea mays
+  Family: Poaceae
+  NativeRange: Mexico
+  Description: Corn was domesticated over 9,000 years ago in Mexico and is now one
+    of the most widely grown crops in the world
+  Asset: {fileID: 21300000, guid: b8b4764e39d44524691ac8ce6453301a, type: 3}
+  PopupAsset: {fileID: 21300000, guid: 08099ef358db0f9468b1e70426487b27, type: 3}
+  OffsetYPos: 45
+  AnimatorController: {fileID: 9100000, guid: 3a609f6fd311fbd46a1d34d598702498, type: 2}

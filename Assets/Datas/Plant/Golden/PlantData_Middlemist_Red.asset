@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc3e0282655ffa418a2bfc67b7977e0, type: 3}
+  m_Name: PlantData_Middlemist_Red
+  m_EditorClassIdentifier: 
+  Id: MIDDLEMIST_RED
+  Name: Middlemist Red
+  ScientificName: Camellia japonica
+  Family: Theaceae
+  NativeRange: Originally from China (now only found in the UK and New Zealand)
+  Description: 'Only two known specimens exist today: one in a New Zealand garden
+    and one in a UK greenhouse.'
+  Asset: {fileID: 21300000, guid: 03453e19f72ad5446854851cdc307fa9, type: 3}
+  PopupAsset: {fileID: 21300000, guid: 6b7af5ac39f40264c871bca8d61b40af, type: 3}
+  OffsetYPos: 0
+  AnimatorController: {fileID: 9100000, guid: 0e8ab61dcbf619f45a024a5144eba4ef, type: 2}

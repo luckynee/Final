@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc3e0282655ffa418a2bfc67b7977e0, type: 3}
+  m_Name: PlantData_DragonFruit
+  m_EditorClassIdentifier: 
+  Id: DRAGON_FRUIT
+  Name: Dragon Fruit
+  ScientificName: Hylocereus undatus
+  Family: Cactaceae
+  NativeRange: Central and South America
+  Description: Dragon fruit, or pitaya, grows on a cactus and blooms only at night
+  Asset: {fileID: 21300000, guid: ef82e674a9a8a184f8f1ff7ad67eaf3e, type: 3}
+  PopupAsset: {fileID: 21300000, guid: d8f2204ce74664e49b3b98581b12a527, type: 3}
+  OffsetYPos: 10
+  AnimatorController: {fileID: 9100000, guid: 53c781b2cdce57741ae1d471fcaf4f7d, type: 2}

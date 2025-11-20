@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc3e0282655ffa418a2bfc67b7977e0, type: 3}
+  m_Name: PlantData_Titan_Arum
+  m_EditorClassIdentifier: 
+  Id: TITAN_ARUM
+  Name: Titan Arum
+  ScientificName: Amorphophallus titanum
+  Family: Araceae
+  NativeRange: Sumatra, Indonesia
+  Description: Famous for its massive flower spike and foul smell, it can grow up
+    to 3 meters tall and blooms rarely.
+  Asset: {fileID: 21300000, guid: 8465d1c553ef14e4a91271a4b2bafa5f, type: 3}
+  PopupAsset: {fileID: 21300000, guid: 3019d6971b4dcd44ea7cba09ed494d4c, type: 3}
+  OffsetYPos: 0
+  AnimatorController: {fileID: 9100000, guid: 52163afffa7b03e4c981a876c247905b, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc3e0282655ffa418a2bfc67b7977e0, type: 3}
+  m_Name: PlantData_Poppy
+  m_EditorClassIdentifier: 
+  Id: POPPY
+  Name: Red Poppy
+  ScientificName: Papaver rhoeas
+  Family: Papaveraceae
+  NativeRange: Europe, Asia
+  Description: Poppies are known for their vivid red color and are a symbol of remembrance
+    for fallen soldiers, especially in World War I
+  Asset: {fileID: 21300000, guid: 610278d286dc95e4fa75120fa2ac474a, type: 3}
+  PopupAsset: {fileID: 21300000, guid: 017bd82d7ba44c3499a9041928265069, type: 3}
+  OffsetYPos: 50
+  AnimatorController: {fileID: 9100000, guid: ccb2a0aec9f5efc4a81adfabe4a221cb, type: 2}
